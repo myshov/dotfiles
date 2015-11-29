@@ -22,8 +22,12 @@ Bundle "gmarik/vundle"
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
-Bundle "itchyny/lightline.vim"
+Plugin 'bling/vim-airline'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'rbgrouleff/bclose.vim'
+Plugin 'Raimondi/delimitMate'
+Plugin 'jeetsukumaran/vim-buffergator'
+Plugin 'lyokha/vim-xkbswitch'
 Bundle 'rking/ag.vim'
 
 " Git

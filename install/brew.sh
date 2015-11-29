@@ -9,6 +9,7 @@ brew upgrade
 # Install packages
 
 apps=(
+    ag
     bash-completion2
     bats
     coreutils
