@@ -27,7 +27,6 @@ ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 if [ "$(uname)" == "Darwin" ]; then
     . "$DOTFILES_DIR/install/brew-cask.sh"
     . "$DOTFILES_DIR/install/ruby.sh"
-    ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
 fi
 
 # Run tests
