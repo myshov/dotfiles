@@ -76,6 +76,10 @@ done
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -exec /bin/rm {} \;"
 alias cleanupad="find . -type d -name '.AppleD*' -ls -exec /bin/rm -r {} \;"
 
+# History syncing
+
+alias h="history -a; history -c; history -r;"
+
 # Miscellaneous
 
 alias quit="exit"
