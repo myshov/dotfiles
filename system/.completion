@@ -22,3 +22,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Homebrew
 
 is-executable brew && [ -f $(brew --prefix)/Library/Contributions/brew_bash_completion.sh ] && . `brew --prefix`/Library/Contributions/brew_bash_completion.sh
+
+# Git
+source ~/.gitsettings/git-completion.bash
