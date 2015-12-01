@@ -20,12 +20,6 @@ set laststatus=2                "Always display the status line
 set hidden                      "Hide buffer instead of closing it
 set pastetoggle=<F2>            "Paste without being smart
 
-" Key mappings
-
-let mapleader=","
-nnoremap <leader><space> :noh<cr>   " Clear search highlighting with ,<space>
-nnoremap <leader><leader> <C-^>     " Switch between last two buffers
-
 " Swap file and backups
 
 set noswapfile

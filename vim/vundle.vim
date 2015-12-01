@@ -28,6 +28,7 @@ Plugin 'rbgrouleff/bclose.vim'
 Plugin 'Raimondi/delimitMate'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'lyokha/vim-xkbswitch'
+Plugin 'tpope/vim-sensible'
 Bundle 'rking/ag.vim'
 
 " Git
