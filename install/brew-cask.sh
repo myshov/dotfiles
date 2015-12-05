@@ -11,13 +11,12 @@ apps=(
     dropbox
     firefox
     firefox-nightly
-    glimmerblocker
     google-chrome
     google-chrome-canary
     google-drive
+    iterm2
     macdown
     opera
-    screenflow
     virtualbox
 )
 
