@@ -9,6 +9,7 @@ brew tap caskroom/versions
 apps=(
     alfred
     dropbox
+    filezilla
     firefox
     firefox-nightly
     gitup
@@ -16,9 +17,12 @@ apps=(
     google-chrome-canary
     google-drive
     iterm2
+    keka
     macdown
     opera
+    sublime-text3
     virtualbox
+    vlc
 )
 
 brew cask install "${apps[@]}"
