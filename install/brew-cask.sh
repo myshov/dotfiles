@@ -11,6 +11,7 @@ apps=(
     dropbox
     firefox
     firefox-nightly
+    gitup
     google-chrome
     google-chrome-canary
     google-drive
