@@ -1,8 +1,8 @@
 brew install nvm
 
-nvm install 0.12
-nvm use 0.12
-nvm alias default 0.12
+nvm install 4.2.1
+nvm use 4.2.1
+nvm alias default 4.2.1
 
 # Globally install with npm
 
