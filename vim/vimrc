@@ -252,8 +252,11 @@ let g:XkbSwitchSkipIMappings = {'*': ["'", '"', '[', ']']}
 
 let g:syntastic_mode_map = {
 \ "mode": "active",
-\ "active_filetypes": ["ruby", "php", "python", "c", "cpp", "java"],
-\ "passive_filetypes": ["javascript"] }
+\ "active_filetypes": ["c", "cpp", "java", "javascript", "python", "ruby"],
+\ "passive_filetypes": [] }
+
+
+let g:syntastic_javascript_checkers = ['eslint']
 
 
 " Include path for C programs
