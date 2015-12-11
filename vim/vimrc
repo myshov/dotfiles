@@ -139,6 +139,7 @@ cmap wi! %!sudo tee > /dev/null %
 " Ctrl-P
 
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_regexp = 1
 
 " The Silver Searcher
 

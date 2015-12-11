@@ -21,7 +21,7 @@ Bundle "gmarik/vundle"
 " Generic
 
 Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'rbgrouleff/bclose.vim'
