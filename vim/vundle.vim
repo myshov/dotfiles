@@ -4,9 +4,9 @@
 "
 " This file contains the list of plugin installed using vundle plugin manager.
 " Once you've updated the list of plugin, you can run vundle update by issuing
-" the command :BundleInstall from within vim or directly invoking it from the
+" the command :PluginInstall from within vim or directly invoking it from the
 " command line with the following syntax:
-" vim --noplugin -u vim/vundles.vim -N "+set hidden" "+syntax on" +BundleClean! +BundleInstall +qall
+" vim --noplugin -u vim/vundles.vim -N "+set hidden" "+syntax on" +PluginClean! +PluginInstall +qall
 " Filetype off is required by vundle
 
 filetype off
@@ -16,7 +16,7 @@ call vundle#begin("$HOME/.vim/bundle")
 
 " let Vundle manage Vundle (required)
 
-Bundle "gmarik/vundle"
+Plugin "gmarik/vundle"
 
 " Generic
 
@@ -29,7 +29,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'lyokha/vim-xkbswitch'
 Plugin 'tpope/vim-sensible'
-Bundle 'rking/ag.vim'
+Plugin 'rking/ag.vim'
 
 " Git
 
@@ -49,7 +49,7 @@ Plugin 'honza/vim-snippets'
 
 " JavaScript
 
-Bundle "pangloss/vim-javascript"
+Plugin "pangloss/vim-javascript"
 Plugin 'marijnh/tern_for_vim'
 
 " Other
