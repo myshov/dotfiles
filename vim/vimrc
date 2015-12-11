@@ -56,9 +56,8 @@ set linebreak    "Wrap lines at convenient points
 
 " Folding
 
-set foldmethod=indent   "fold based on indent
-set foldnestmax=3       "deepest fold is 3 levels
-set nofoldenable        "dont fold by default
+set nofoldenable                "don't fold by default
+set foldmethod=syntax           "fold based on syntax
 
 " Search
 
@@ -260,6 +259,13 @@ let g:syntastic_mode_map = {
 let g:syntastic_javascript_checkers = ['eslint']
 
 
+" Languages related stuff
+
 " Include path for C programs
 
 set path+=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/
+
+" Code folding for JavaScript
+"
+let javaScript_fold=1
+autocmd BufEnter *.js :normal zR\<Enter\>   "fix initial fold closing
