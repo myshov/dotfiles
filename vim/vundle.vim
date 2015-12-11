@@ -16,11 +16,12 @@ call vundle#begin("$HOME/.vim/bundle")
 
 " let Vundle manage Vundle (required)
 
-Plugin "gmarik/vundle"
+Plugin 'gmarik/vundle'
 
 " Generic
 
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'terryma/vim-multiple-cursors'
@@ -29,7 +30,9 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'lyokha/vim-xkbswitch'
 Plugin 'tpope/vim-sensible'
+Plugin 'tpope/vim-surround'
 Plugin 'rking/ag.vim'
+Plugin 'sagarrakshe/toggle-bool'
 
 " Git
 
@@ -40,6 +43,8 @@ Plugin 'airblade/vim-gitgutter'
 
 Plugin 'scrooloose/syntastic'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'trusktr/seti.vim'
+Plugin 'myshov/vim-color-smycking'
 
 " Completion & snippets
 
@@ -49,8 +54,9 @@ Plugin 'honza/vim-snippets'
 
 " JavaScript
 
-Plugin "pangloss/vim-javascript"
+Plugin 'pangloss/vim-javascript'
 Plugin 'marijnh/tern_for_vim'
+Plugin 'moll/vim-node'
 
 " Other
 
