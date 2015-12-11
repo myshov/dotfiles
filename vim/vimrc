@@ -124,6 +124,10 @@ autocmd VimEnter * call RestoreSession()
 " Greping with silver searcher word under cursor
 nnoremap <leader>k :silent grep! "\b\s?<C-R><C-W>\b"<CR>:cw<CR>:redr!<CR>
 
+" Fix syntax highlighting issues
+noremap <F12> <Esc>:syntax sync fromstart<CR>
+inoremap <F12> <C-o>:syntax sync fromstart<CR>
+
 " Run node or browser on F5
 autocmd BufRead,Bufenter *.js map <F5> :w<Esc>:!node %<CR>
 autocmd BufRead,Bufenter *.html map <F5> :exe ':silent !open -a /Applications/Firefox.app %'<CR>:redr!<CR>
