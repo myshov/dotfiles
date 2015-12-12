@@ -18,9 +18,11 @@ apps=(
     google-drive
     iterm2
     keka
+    keycastr
     macdown
     opera
     sublime-text3
+    sourcetree
     virtualbox
     vlc
 )
