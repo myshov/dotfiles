@@ -76,7 +76,7 @@ set termencoding=utf-8
 syntax on
 set cursorline
 set background=dark
-let g:solarized_termcolors=256
+" let g:solarized_termcolors=256
 colorscheme solarized
 highlight clear SignColumn
 
