@@ -58,6 +58,10 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'moll/vim-node'
 
+" Integrations
+
+Plugin 'christoomey/vim-tmux-navigator'
+
 " Other
 
 Plugin 'tpope/vim-markdown'

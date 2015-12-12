@@ -121,6 +121,9 @@ autocmd BufRead,Bufenter *.html map <F5> :exe ':silent !open -a /Applications/Fi
 " Write with sudo
 cmap wi! %!sudo tee > /dev/null %
 
+" Turn off search highlight
+nnoremap <leader>a :noh<CR>
+
 
 " Ctrl-P
 
@@ -222,8 +225,8 @@ let delimitMate_expand_cr = 1
 
 " Bufferegator
 
-nnoremap <C-h> :BuffergatorMruCyclePrev<CR>
-nnoremap <C-j> :BuffergatorMruCycleNext<CR>
+nnoremap <leader>r :BuffergatorMruCyclePrev<CR>
+nnoremap <leader>t :BuffergatorMruCycleNext<CR>
 
 
 " Vim-xkbswitch
