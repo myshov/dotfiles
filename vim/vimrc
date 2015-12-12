@@ -256,6 +256,17 @@ let g:syntastic_javascript_checkers = ['eslint']
 set path+=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/
 
 " Code folding for JavaScript
-"
+
 let javaScript_fold=1
 autocmd BufEnter *.js :normal zR\<Enter\>   "fix initial fold closing
+
+
+" Integrations
+
+" Proper mouse support inside screen and tmux
+
+set mouse+=a
+if &term =~ '^screen'
+    " tmux knows the extended mouse mode
+    set ttymouse=xterm2
+endif
