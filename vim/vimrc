@@ -104,19 +104,6 @@ set wildignore+=*.zip
 set wildignore+=*.swp,*.pyc,*.bak,*.class,*.orig
 set wildignore+=.git,.hg,.bzr,.svn
 
-" Session saving and entering
-
-set sessionoptions=blank,buffers,curdir,folds,globals,help,localoptions,options,resize,tabpages,winsize,winpos
-function! RestoreSession()
-  if argc() == 0 "vim called without arguments
-    execute 'source ~/.vim/sessions/session.vim'
-  end
-endfunction
-" Save session on quitting Vim
-autocmd VimLeave * mksession! ~/.vim/sessions/session.vim
-" Restore session on starting Vim
-autocmd VimEnter * call RestoreSession()
-
 
 " Bindings
 
