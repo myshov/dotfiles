@@ -32,6 +32,7 @@ apps=(
     shellcheck
     ssh-copy-id
     svn
+    tmux
     tree
     vim
     wget
