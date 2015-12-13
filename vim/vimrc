@@ -225,8 +225,8 @@ let delimitMate_expand_cr = 1
 
 " Bufferegator
 
-nnoremap <leader>r :BuffergatorMruCyclePrev<CR>
-nnoremap <leader>t :BuffergatorMruCycleNext<CR>
+nnoremap <leader>h :BuffergatorMruCyclePrev<CR>
+nnoremap <leader>j :BuffergatorMruCycleNext<CR>
 
 
 " Vim-xkbswitch
