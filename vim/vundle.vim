@@ -31,6 +31,7 @@ Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'lyokha/vim-xkbswitch'
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-abolish'
 Plugin 'rking/ag.vim'
 Plugin 'sagarrakshe/toggle-bool'
 
@@ -48,14 +49,14 @@ Plugin 'myshov/vim-color-smycking'
 
 " Completion & snippets
 
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
 " JavaScript
 
 Plugin 'pangloss/vim-javascript'
-Plugin 'marijnh/tern_for_vim'
+" Plugin 'marijnh/tern_for_vim'
 Plugin 'moll/vim-node'
 
 " Integrations
