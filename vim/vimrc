@@ -145,6 +145,7 @@ endif
 " NERDTree
 
 nmap <F7> :NERDTreeToggle<cr>
+nmap <leader>f :NERDTreeFind<cr>
 
 
 " Snippets
