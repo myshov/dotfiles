@@ -33,9 +33,6 @@
 [push]
     default = simple
 
-[pager]
-    diff = diff-highlight | less
-
 [color]
     ui = auto
 [color "branch"]
