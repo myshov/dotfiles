@@ -58,6 +58,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'pangloss/vim-javascript'
 " Plugin 'marijnh/tern_for_vim'
 Plugin 'moll/vim-node'
+Plugin 'mxw/vim-jsx'
 
 " Integrations
 
