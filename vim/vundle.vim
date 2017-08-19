@@ -68,6 +68,7 @@ Plugin 'christoomey/vim-tmux-navigator'
 
 Plugin 'tpope/vim-markdown'
 Plugin 'mattn/emmet-vim'
+Plugin 'junegunn/goyo.vim'
 
 call vundle#end()
 
