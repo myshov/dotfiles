@@ -1,6 +1,7 @@
 *~
 ._*
 *.swp
+*.tmp
 .DS_Store
 .idea
 bower_components
