@@ -33,7 +33,7 @@ Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-abolish'
 Plugin 'rking/ag.vim'
-Plugin 'sagarrakshe/toggle-bool'
+" Plugin 'sagarrakshe/toggle-bool'
 
 " Git
 
