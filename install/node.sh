@@ -1,8 +1,8 @@
 brew install nvm
 
-nvm install 4.2.1
-nvm use 4.2.1
-nvm alias default 4.2.1
+nvm install 14.15.0
+nvm use 14.15.0
+nvm alias default 14.15.0
 
 # Globally install with npm
 

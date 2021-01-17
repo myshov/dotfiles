@@ -4,17 +4,13 @@ apps=(
     alfred
     dropbox
     firefox
-    firefox-nightly
     gitup
     google-chrome
-    google-chrome-canary
-    google-drive
     iterm2
     keka
     keycastr
     macdown
     opera
-    sourcetree
     virtualbox
     vlc
 )

@@ -50,14 +50,12 @@ Plugin 'myshov/vim-color-smycking'
 
 " Completion & snippets
 
-" Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
 " JavaScript
 
 Plugin 'pangloss/vim-javascript'
-" Plugin 'marijnh/tern_for_vim'
 Plugin 'moll/vim-node'
 Plugin 'mxw/vim-jsx'
 Plugin 'prettier/vim-prettier'
