@@ -4,6 +4,8 @@ These are my dotfiles. Take anything you want, but at your own risk.
 
 It targets OS X systems, but since it has some defensive checks it should work on *nix as well (tested on a few Linux boxes).
 
+(Based on https://github.com/webpro/dotfiles)
+
 ## Package overview
 
 * Core
