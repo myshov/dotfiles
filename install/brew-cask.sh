@@ -11,11 +11,8 @@ apps=(
     keycastr
     macdown
     opera
-    virtualbox
+    visual-studio-code
     vlc
 )
 
-brew cask install "${apps[@]}"
-
-# Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv webpquicklook suspicious-package && qlmanage -r
+brew install "${apps[@]}" --cask
