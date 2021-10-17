@@ -28,10 +28,6 @@ sub_reload () {
     . ~/.bash_profile && echo "Bash reloaded."
 }
 
-sub_test () {
-    bats "$DOTFILES_DIR"/test/*.bats
-}
-
 sub_update () {
     sudo softwareupdate -i -a
     brew update

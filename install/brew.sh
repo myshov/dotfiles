@@ -9,7 +9,6 @@ brew upgrade
 apps=(
     ag
     bash-completion2
-    bats
     cmake
     coreutils
     dockutil
