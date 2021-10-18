@@ -73,12 +73,14 @@ set termencoding=utf-8
 
 " Colors
 
-syntax on
+syntax enable
 set cursorline
 set background=dark
-" let g:solarized_termcolors=256
-colorscheme solarized
+" Workaround a problem with solarized and vim-gitgutter.
+" https://github.com/airblade/vim-gitgutter/issues/696
+autocmd ColorScheme * highlight! link SignColumn LineNr
 highlight clear SignColumn
+colorscheme solarized
 
 " Scrolling
 
