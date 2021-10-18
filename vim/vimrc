@@ -220,7 +220,7 @@ let g:airline_theme='solarized'
 
 " Bclose
 
-map <leader>bd :Bclose<CR>
+map <leader>d :Bclose<CR>
 
 
 " DelimitMate
@@ -247,7 +247,7 @@ let g:XkbSwitchSkipIMappings = {'*': ["'", '"', '[', ']']}
 
 let g:syntastic_mode_map = {
 \ "mode": "active",
-\ "active_filetypes": ["c", "cpp", "java", "javascript", "python", "ruby"],
+\ "active_filetypes": ["c", "cpp", "java", "javascript", "python", "ruby", "typescript"],
 \ "passive_filetypes": [] }
 
 
@@ -264,6 +264,12 @@ set path+=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/D
 
 let javaScript_fold=1
 autocmd BufEnter *.js :normal zR\<Enter\>   "fix initial fold closing
+
+
+" TypeScript
+let g:tsuquyomi_disable_quickfix = 1
+let g:syntastic_typescript_checkers = ['tsuquyomi', 'eslint'] " You shouldn't use 'tsc' checker.
+autocmd FileType typescript nmap <buffer> <Leader>t : \ <C-u>echo tsuquyomi#hint()<CR>
 
 
 " Integrations

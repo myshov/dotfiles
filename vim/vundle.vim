@@ -60,6 +60,12 @@ Plugin 'moll/vim-node'
 Plugin 'mxw/vim-jsx'
 Plugin 'prettier/vim-prettier'
 
+" TypeScript
+Plugin 'leafgarland/typescript-vim'
+Plugin 'ianks/vim-tsx'
+Plugin 'Shougo/vimproc.vim'
+Plugin 'Quramy/tsuquyomi'
+
 " Integrations
 
 Plugin 'christoomey/vim-tmux-navigator'
