@@ -22,17 +22,17 @@ ln -sfv "$DOTFILES_DIR/git/.gitsettings" ~
 
 # Package managers & packages
 
-. "$DOTFILES_DIR/install/brew.sh"
-. "$DOTFILES_DIR/install/bash.sh"
-. "$DOTFILES_DIR/install/node.sh"
-. "$DOTFILES_DIR/install/vundle.sh"
+# . "$DOTFILES_DIR/install/brew.sh"
+# . "$DOTFILES_DIR/install/bash.sh"
+# . "$DOTFILES_DIR/install/node.sh"
+# . "$DOTFILES_DIR/install/vundle.sh"
 
-if [ "$(uname)" == "Darwin" ]; then
-    . "$DOTFILES_DIR/install/brew-cask.sh"
-fi
+# if [ "$(uname)" == "Darwin" ]; then
+#     . "$DOTFILES_DIR/install/brew-cask.sh"
+# fi
 
 # Install extra stuff
 
-if [ -d "$EXTRA_DIR" -a -f "$EXTRA_DIR/install.sh" ]; then
-    . "$EXTRA_DIR/install.sh"
-fi
+# if [ -d "$EXTRA_DIR" -a -f "$EXTRA_DIR/install.sh" ]; then
+#    . "$EXTRA_DIR/install.sh"
+# fi

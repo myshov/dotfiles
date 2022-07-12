@@ -1,7 +1,6 @@
 [user]
     name = Alexander Myshov
     email = simplex.light@gmail.com
-    signingkey = CA638CF761F11C7A
 
 [github]
     user = myshov
@@ -54,5 +53,3 @@
     oldHighlight = "red bold 52"
     newNormal = "green bold"
     newHighlight = "green bold 22"
-[commit]
-    gpgsign = true
