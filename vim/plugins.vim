@@ -40,6 +40,7 @@ Plug 'myshov/vim-color-smycking'
 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'neoclide/coc.nvim'
 
 " JavaScript
 
@@ -51,8 +52,6 @@ Plug 'prettier/vim-prettier'
 " TypeScript
 Plug 'leafgarland/typescript-vim'
 Plug 'ianks/vim-tsx'
-Plug 'Shougo/vimproc.vim'
-Plug 'Quramy/tsuquyomi'
 
 " Integrations
 
