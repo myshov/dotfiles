@@ -2,9 +2,10 @@ set nocompatible
 
 " Load plugins
 
-if filereadable(expand("$VIM/vundle.vim"))
-  source $VIM/vundle.vim
+if filereadable(expand('$VIM/plugins.vim'))
+  source $VIM/plugins.vim
 endif
+
 
 " General
 
@@ -240,6 +241,7 @@ nnoremap <leader>j :BuffergatorMruCycleNext<CR>
 
 " TODO installing automatisation
 let g:XkbSwitchEnabled = 1
+let g:XkbSwitchLib = '/usr/local/lib/libg3kbswitch.so'
 let g:XkbSwitchIMappings = ['ru']
 " fix conflict with DelimitMate
 let g:XkbSwitchSkipIMappings = {'*': ["'", '"', '[', ']']}
@@ -260,7 +262,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 " Include path for C programs
 
-set path+=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/
+set path+=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/
 
 " Code folding for JavaScript
 
