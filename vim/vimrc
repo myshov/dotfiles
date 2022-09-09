@@ -237,16 +237,6 @@ nnoremap <leader>h :BuffergatorMruCyclePrev<CR>
 nnoremap <leader>j :BuffergatorMruCycleNext<CR>
 
 
-" Vim-xkbswitch
-
-" TODO installing automatisation
-let g:XkbSwitchEnabled = 1
-let g:XkbSwitchLib = '/usr/local/lib/libg3kbswitch.so'
-let g:XkbSwitchIMappings = ['ru']
-" fix conflict with DelimitMate
-let g:XkbSwitchSkipIMappings = {'*': ["'", '"', '[', ']']}
-
-
 " Syntastic
 
 let g:syntastic_mode_map = {

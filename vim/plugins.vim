@@ -17,7 +17,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'Raimondi/delimitMate'
 Plug 'jeetsukumaran/vim-buffergator'
-Plug 'lyokha/vim-xkbswitch'
+" Plug 'lyokha/vim-xkbswitch'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-abolish'
@@ -38,7 +38,7 @@ Plug 'myshov/vim-color-smycking'
 
 " Completion & snippets
 
-Plug 'SirVer/ultisnips'
+" Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim'
 
