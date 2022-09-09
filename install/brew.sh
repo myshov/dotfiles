@@ -31,7 +31,7 @@ apps=(
     svn
     tmux
     tree
-    vim
+    neovim
     volta
     wget
 )

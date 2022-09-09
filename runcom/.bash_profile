@@ -27,7 +27,7 @@ fi
 
 # Finally we can source the dotfiles (order matters)
 
-for DOTFILE in "$DOTFILES_DIR"/system/.{function,function_*,path,env,alias,completion,grep,prompt,nvm,custom}; do
+for DOTFILE in "$DOTFILES_DIR"/system/.{function,function_*,path,env,alias,completion,grep,prompt,custom}; do
     [ -f "$DOTFILE" ] && . "$DOTFILE"
 done
 
@@ -58,3 +58,5 @@ unset READLINK CURRENT_SCRIPT SCRIPT_PATH DOTFILE
 # Export
 
 export OS DOTFILES_DIR EXTRA_DIR
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
