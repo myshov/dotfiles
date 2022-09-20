@@ -60,3 +60,4 @@ unset READLINK CURRENT_SCRIPT SCRIPT_PATH DOTFILE
 export OS DOTFILES_DIR EXTRA_DIR
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+export PATH="/home/a.myshov/.local/bin:$PATH"
