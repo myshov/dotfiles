@@ -265,6 +265,9 @@ autocmd BufEnter *.js :normal zR\<Enter\>   "fix initial fold closing
 " let g:syntastic_typescript_checkers = ['tsuquyomi', 'eslint'] " You shouldn't use 'tsc' checker.
 " autocmd FileType typescript nmap <buffer> <Leader>t : \ <C-u>echo tsuquyomi#hint()<CR>
 
+" Attention! To avoid automatic selecting of the first item in the list
+" you have to add `suggest.noselect: true` to coc config via :CocConfig
+
 " To make the completion work like builtin completion without configuration,
 inoremap <silent><expr> <C-n> coc#pum#visible() ? coc#pum#next(1) : "\<C-n>"
 inoremap <silent><expr> <C-p> coc#pum#visible() ? coc#pum#prev(1) : "\<C-p>"
