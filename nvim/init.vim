@@ -131,11 +131,7 @@ cmap wi! %!sudo tee > /dev/null %
 nnoremap <leader>a :noh<CR>
 
 " Prettier
-let g:prettier#config#print_width = 120
-let g:prettier#config#tab_width = 4
-let g:prettier#config#single_quote = 'true'
-let g:prettier#config#trailing_comma = 'es5'
-let g:prettier#config#bracket_spacing = 'false'
+let g:prettier#autoformat_config_present = 1
 
 " The Silver Searcher
 " List of ignored in ~/.agignore
