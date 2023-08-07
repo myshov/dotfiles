@@ -47,7 +47,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lock
 Plug 'pangloss/vim-javascript'
 Plug 'moll/vim-node'
 Plug 'mxw/vim-jsx'
-Plug 'prettier/vim-prettier'
 
 " TypeScript
 Plug 'leafgarland/typescript-vim'

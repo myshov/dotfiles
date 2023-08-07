@@ -131,7 +131,7 @@ cmap wi! %!sudo tee > /dev/null %
 nnoremap <leader>a :noh<CR>
 
 " Prettier
-let g:prettier#autoformat_config_present = 1
+nmap <Leader>p :exe ':silent !npx prettier --write %'<CR>
 
 " The Silver Searcher
 " List of ignored in ~/.agignore
