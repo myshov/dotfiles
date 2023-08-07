@@ -333,12 +333,14 @@ endfunction
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
 
+" Fix of unreadable floating windows in coc-vim
+autocmd VimEnter,ColorScheme * hi! link CocFloating CocHintFloat
+
 " Integrations
 
 " Proper mouse support inside screen and tmux
 
 set mouse+=a
-if &term =~ '^screen'
-    " tmux knows the extended mouse mode
-    set ttymouse=xterm2
+if !has('nvim')
+  set ttymouse=xterm2
 endif

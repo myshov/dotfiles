@@ -39,7 +39,7 @@ fi
 
 # Set LSCOLORS
 
-eval "$(dircolors "$DOTFILES_DIR"/system/.dir_colors)"
+# eval "$(dircolors "$DOTFILES_DIR"/system/.dir_colors)"
 
 # Hook for extra/custom stuff
 
@@ -59,4 +59,6 @@ unset READLINK CURRENT_SCRIPT SCRIPT_PATH DOTFILE
 
 export OS DOTFILES_DIR EXTRA_DIR
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/usr/local/bin/brew shellenv)"
+
+alias vim="nvim"
