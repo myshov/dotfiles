@@ -25,7 +25,7 @@ ln -sfv "$DOTFILES_DIR/git/.gitsettings" ~
 . "$DOTFILES_DIR/install/brew.sh"
 . "$DOTFILES_DIR/install/bash.sh"
 . "$DOTFILES_DIR/install/node.sh"
-# . "/Users/myshov/dotfiles/install/vim-plug.sh"
+. "$DOTFILES_DIR/install/vim-plug.sh"
 
 if [ "$(uname)" == "Darwin" ]; then
     . "$DOTFILES_DIR/install/brew-cask.sh"

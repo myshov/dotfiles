@@ -59,6 +59,6 @@ unset READLINK CURRENT_SCRIPT SCRIPT_PATH DOTFILE
 
 export OS DOTFILES_DIR EXTRA_DIR
 
-eval "$(/usr/local/bin/brew shellenv)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 alias vim="nvim"
