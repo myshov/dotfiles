@@ -4,7 +4,7 @@
 "
 " This file contains the list of plugin installed using plugin manager.
 
-call plug#begin(expand('$VIM/plugged'))
+call plug#begin(expand('$NVIMCONFIGS/plugged'))
 
 " Generic
 

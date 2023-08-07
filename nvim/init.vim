@@ -1,9 +1,12 @@
+" set runtimepath^=~/.vim runtimepath+=~/.vim/after
+" let &packpath = &runtimepath
+" source ~/.vimrc
 set nocompatible
 
 " Load plugins
 
-if filereadable(expand('$VIM/plugins.vim'))
-  source $VIM/plugins.vim
+if filereadable(expand('$NVIMCONFIGS/plugins.vim'))
+  source $NVIMCONFIGS/plugins.vim
 endif
 
 
