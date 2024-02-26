@@ -224,6 +224,11 @@ let g:airline_theme='solarized'
 
 map <leader>d :Bclose<CR>
 
+nmap <leader>ln :let @" = join([expand("%"), line(".")], ":")<cr>
+nmap <leader>lpn :let @" = join([expand("%:p"), line(".")], ":")<cr>
+nmap <F10> <leader>ln
+nmap <F9> :CtrlPBuffer<CR>
+map gf gF
 
 " DelimitMate
 
@@ -343,3 +348,6 @@ set mouse+=a
 if !has('nvim')
   set ttymouse=xterm2
 endif
+
+" lit element css support
+let g:htl_css_templates = 1

@@ -23,6 +23,8 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-abolish'
 Plug 'rking/ag.vim'
 " Plug 'sagarrakshe/toggle-bool'
+" jumps to particluar line of file
+Plug 'wsdjeg/vim-fetch'
 
 " Git
 
