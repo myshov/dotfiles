@@ -226,8 +226,9 @@ map <leader>d :Bclose<CR>
 
 nmap <leader>ln :let @" = join([expand("%"), line(".")], ":")<cr>
 nmap <leader>lpn :let @" = join([expand("%:p"), line(".")], ":")<cr>
-nmap <F10> <leader>ln
-nmap <F9> :CtrlPBuffer<CR>
+nmap <F10> :CtrlPBuffer<CR>
+nmap <F9> :e project.txt<CR>
+nmap <F8> <leader>ln
 map gf gF
 
 " DelimitMate
