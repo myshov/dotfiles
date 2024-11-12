@@ -86,10 +86,6 @@ autocmd ColorScheme * highlight! link SignColumn LineNr
 highlight clear SignColumn
 colorscheme solarized
 
-" Spellchecking
-set spell spelllang=en_us
-set spelloptions=camel
-
 " Scrolling
 
 set scrolloff=4
